@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.0.0.aar\b6cacf6ad4936bac9c36f5da1bf53bad\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.0.0.aar\0119216ecb3037e7d7d166c93d0e8e88\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\010782fe1f24e84ee09cdc51fbb69d52\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:5:5-80
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-80
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:6:5-81
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-81
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:8:5-25:19
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-15:19
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-15:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.0.0.aar\b6cacf6ad4936bac9c36f5da1bf53bad\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.0.0.aar\b6cacf6ad4936bac9c36f5da1bf53bad\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.0.0.aar\0119216ecb3037e7d7d166c93d0e8e88\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.0.0.aar\0119216ecb3037e7d7d166c93d0e8e88\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\010782fe1f24e84ee09cdc51fbb69d52\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\010782fe1f24e84ee09cdc51fbb69d52\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:13:9-40
+activity#life.knowledge4.videotrimmersample.MainActivity
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:14:9-16:20
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:14:19-47
+activity#life.knowledge4.videotrimmersample.TrimmerActivity
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:17:9-53
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:17:19-50
+activity#life.knowledge4.videotrimmersample.LoginActivity
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:18:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:k4l-video-trimmer] C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.0.0.aar\b6cacf6ad4936bac9c36f5da1bf53bad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.0.0.aar\b6cacf6ad4936bac9c36f5da1bf53bad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.0.0.aar\0119216ecb3037e7d7d166c93d0e8e88\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.0.0.aar\0119216ecb3037e7d7d166c93d0e8e88\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\010782fe1f24e84ee09cdc51fbb69d52\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\010782fe1f24e84ee09cdc51fbb69d52\AndroidManifest.xml:21:5-23:54
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.0.0.aar\616447cb9fdb335400294516fb9515c2\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\sample-app\src\main\AndroidManifest.xml

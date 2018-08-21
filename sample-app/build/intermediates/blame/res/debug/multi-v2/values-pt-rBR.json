@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\ace2-master (2)\\sample-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.0.0.aar\\616447cb9fdb335400294516fb9515c2\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,175,283,406,512,619,708,809,927,1010,1090,1177,1284,1396,1498,1606,1713,1823,1948,2048",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,100",
+                        "endOffsets": "170,278,401,507,614,703,804,922,1005,1085,1172,1279,1391,1493,1601,1708,1818,1943,2043,2144"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "97,217,325,448,554,661,750,851,969,1052,1132,1219,1326,1438,1540,1648,1755,1865,1990,2300",
+                        "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,100",
+                        "endOffsets": "212,320,443,549,656,745,846,964,1047,1127,1214,1321,1433,1535,1643,1750,1860,1985,2085,2396"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\ace2-master (2)\\k4l-video-trimmer\\build\\intermediates\\packaged_res\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,141,181,221,261",
+                        "endColumns": "41,43,39,39,39,45",
+                        "endOffsets": "92,136,176,216,256,302"
+                    },
+                    "to": {
+                        "startLines": "2,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,2090,2134,2174,2214,2254",
+                        "endColumns": "41,43,39,39,39,45",
+                        "endOffsets": "92,2129,2169,2209,2249,2295"
+                    }
+                }
+            ]
+        }
+    ]
+}
