@@ -1,5 +1,5 @@
 <resources>
-  <string name="ThumExport">TE</string>
+  <string name="ThumbExport">TE</string>
   <string name="cancel">Cancelar</string>
   <string name="save">Salvar</string>
   <string name="short_seconds">sec</string>

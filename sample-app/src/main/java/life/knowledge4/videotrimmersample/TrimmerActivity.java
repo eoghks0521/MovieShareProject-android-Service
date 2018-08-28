@@ -25,7 +25,7 @@ public class TrimmerActivity extends AppCompatActivity implements OnTrimVideoLis
         String path = "";
 
         if (extraIntent != null) {
-            path = extraIntent.getStringExtra(MainActivity.EXTRA_VIDEO_PATH);
+            path = extraIntent.getStringExtra(VideoEditorActivity.EXTRA_VIDEO_PATH);
         }
 
         //setting progressbar
@@ -89,7 +89,7 @@ public class TrimmerActivity extends AppCompatActivity implements OnTrimVideoLis
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(TrimmerActivity.this, "onVideoPrepared", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(TrimmerActivity.this, "onVideoPrepared", Toast.LENGTH_SHORT).show();
             }
         });
     }

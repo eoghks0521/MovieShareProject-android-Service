@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Fri Aug 17 18:07:29 KST 2018
-1.base=C\:\\Users\\Administrator\\Desktop\\ace2-master (2)\\sample-app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+#Thu Aug 23 18:47:06 KST 2018
+1.base=E\:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=C\:\\Users\\Administrator\\Desktop\\ace2-master (2)\\sample-app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+0.base=E\:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 1.path=classes.dex

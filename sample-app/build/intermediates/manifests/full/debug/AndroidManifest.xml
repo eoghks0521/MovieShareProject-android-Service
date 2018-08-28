@@ -5,23 +5,37 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="17"
+        android:targetSdkVersion="27" />
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <application
+        android:name="life.knowledge4.videotrimmersample.ApplicationController"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="life.knowledge4.videotrimmersample.MainActivity" >
-        </activity>
+        <activity android:name="life.knowledge4.videotrimmersample.VideoEditorActivity" />
         <activity android:name="life.knowledge4.videotrimmersample.TrimmerActivity" />
-        <activity android:name="life.knowledge4.videotrimmersample.LoginActivity" >
+        <activity android:name="life.knowledge4.videotrimmersample.FriendActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.FunctionListActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.MainActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.RegistActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.UploadActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.UploadListActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.Brother" />
+        <activity android:name="life.knowledge4.videotrimmersample.LoadingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

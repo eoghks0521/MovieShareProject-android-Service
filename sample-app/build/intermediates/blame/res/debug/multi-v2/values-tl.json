@@ -1,16 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\Desktop\\ace2-master (2)\\sample-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.0.0.aar\\616447cb9fdb335400294516fb9515c2\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6f71fd425ae072233dc0c94b1f8dc0f9\\res\\values-tl\\values-tl.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,282,405,513,630,718,824,945,1024,1102,1186,1295,1406,1507,1617,1734,1842,1965,2067",
-                        "endColumns": "118,107,122,107,116,87,105,120,78,77,83,108,110,100,109,116,107,122,101,100",
-                        "endOffsets": "169,277,400,508,625,713,819,940,1019,1097,1181,1290,1401,1502,1612,1729,1837,1960,2062,2163"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2010",
+                        "endColumns": "100",
+                        "endOffsets": "2106"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,1926",
+                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
+                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2005"
                     }
                 }
             ]

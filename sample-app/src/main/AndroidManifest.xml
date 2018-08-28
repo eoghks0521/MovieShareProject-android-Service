@@ -2,20 +2,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="life.knowledge4.videotrimmersample">
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <application
+        android:name=".ApplicationController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".VideoEditorActivity" />
         <activity android:name=".TrimmerActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".FriendActivity" />
+        <activity android:name=".FunctionListActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".UploadListActivity" />
+        <activity android:name=".Brother" />
+        <activity android:name=".LoadingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

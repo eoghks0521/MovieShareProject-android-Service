@@ -675,7 +675,7 @@ public final class R {
         public static int view_time_line = 0x7f0f0027;
     }
     public static final class string {
-        public static int ThumExport = 0x7f150001;
+        public static int ThumbExport = 0x7f150001;
         public static int abc_action_bar_home_description = 0x7f150002;
         public static int abc_action_bar_home_description_format = 0x7f150003;
         public static int abc_action_bar_home_subtitle_description_format = 0x7f150004;

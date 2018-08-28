@@ -1,128 +1,138 @@
 package life.knowledge4.videotrimmersample;
 
-import android.Manifest;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.os.Bundle;
-import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.Toast;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.EditText;
+import android.widget.TextView;
 
-import life.knowledge4.videotrimmer.utils.FileUtils;
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
+    public final String TAG = "KDH";
+    private  NetworkService networkService;
+    private  BackPressCloseHandler backPressCloseHandler;
 
-    private static final int REQUEST_VIDEO_TRIMMER = 0x01;
-    private static final int REQUEST_STORAGE_READ_ACCESS_PERMISSION = 101;
-    static final String EXTRA_VIDEO_PATH = "EXTRA_VIDEO_PATH";
+    @BindView(R.id.editText)
+    EditText editText;
+    @BindView(R.id.textView)
+    TextView textView;
+    @BindView(R.id.editText2)
+    EditText editText2;
+    Client client = new Client();
+    PassId passId = new PassId();
+
+
+
+
+    @OnClick(R.id.btn)
+    public void btn_Click() {
+        //GET
+
+        final String id = editText.getText().toString();
+        final String pw = editText2.getText().toString();
+
+        Call<List<Client>> clientCall = networkService.get_client();
+        clientCall.enqueue(new Callback<List<Client>>() {
+            @Override
+            public void onResponse(Call<List<Client>> call, Response<List<Client>> response) {
+                if (response.isSuccessful()) {
+                    List<Client> client_List = response.body();
+
+                    String client_txt = "";
+                    for (Client client : client_List) {
+                        Log.i("kwon",client.getClientid()+"====="+id+id.compareTo(client.getClientid()));
+                        Log.i("kwon",client.getPassword()+"====="+pw+pw.compareTo(client.getPassword()));
+
+                        if(id.equals(client.getClientid().toString()) && pw.equals(client.getPassword().toString())) {
+                            textView.setText("성공");
+
+                            passId.setPassid(id);
+                            Call<PassId> postCall = networkService.post_passid(passId);
+
+                            postCall.enqueue(new Callback<PassId>() {
+                                @Override
+                                public void onResponse(Call<PassId> call, Response<PassId> response) {
+                                    if (response.isSuccessful()) {
+                                    } else {
+                                        int StatusCode = response.code();
+                                        Log.i(ApplicationController.TAG, "Status Code : " + StatusCode);
+                                    }
+
+                                }
+
+                                @Override
+                                public void onFailure(Call<PassId> call, Throwable t) {
+                                    Log.i(ApplicationController.TAG, "Fail Message : " + t.getMessage());
+                                }
+                            });
+                            Log.i("kwon","여기가 안돼요");
+                            Intent intent = new Intent(getApplicationContext(),FunctionListActivity.class);
+                            intent.putExtra("clientid",id);
+                            startActivity(intent);
+
+                            /*String url = "http://ec2-13-125-237-24.ap-northeast-2.compute.amazonaws.com:8000/";
+
+                            // AsyncTask를 통해 HttpURLConnection 수행.
+
+                            ContentValues values = new ContentValues();
+                            values.put("clientid",id);
+                            NetworkTask networkTask = new NetworkTask(url, values);
+                            networkTask.execute();
+                            */
+                            break;
+                        }
+                        textView.setText("실패");
+                    }
+                } else {
+                    int StatusCode = response.code();
+                    Log.i(ApplicationController.TAG, "Status Code : " + StatusCode);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<Client>> call, Throwable t) {
+                Log.i(ApplicationController.TAG, "Fail Message : " + t.getMessage());
+            }
+        });
+    }
+
+    @OnClick(R.id.btn2)
+    public void btn2_Click(){
+        Intent intent = new Intent(this,RegistActivity.class);
+        startActivity(intent);
+    }
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton galleryButton = (ImageButton) findViewById(R.id.galleryButton);
-        if (galleryButton != null) {
-            galleryButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    pickFromGallery();
-                }
-            });
-        }
+        ButterKnife.bind(this);
 
-        ImageButton recordButton = (ImageButton) findViewById(R.id.cameraButton);
-        if (recordButton != null) {
-            recordButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    openVideoCapture();
-                }
-            });
-        }
-    }
+        ApplicationController application = ApplicationController.getInstance();
+        application.buildNetworkService("bc80af00.ngrok.io");
+        networkService = ApplicationController.getInstance().getNetworkService();
 
-    private void openVideoCapture() {
-        Intent videoCapture = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
-        startActivityForResult(videoCapture, REQUEST_VIDEO_TRIMMER);
-    }
+        backPressCloseHandler = new BackPressCloseHandler(this);
 
-    private void pickFromGallery() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            requestPermission(Manifest.permission.READ_EXTERNAL_STORAGE, getString(R.string.permission_read_storage_rationale), REQUEST_STORAGE_READ_ACCESS_PERMISSION);
-        } else {
-            Intent intent = new Intent();
-            intent.setTypeAndNormalize("video/*");
-            intent.setAction(Intent.ACTION_GET_CONTENT);
-            intent.addCategory(Intent.CATEGORY_OPENABLE);
-            startActivityForResult(Intent.createChooser(intent, getString(R.string.label_select_video)), REQUEST_VIDEO_TRIMMER);
-        }
+
     }
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode == RESULT_OK) {
-            if (requestCode == REQUEST_VIDEO_TRIMMER) {
-                final Uri selectedUri = data.getData();
-                if (selectedUri != null) {
-                    Toast.makeText(MainActivity.this, selectedUri.toString(), Toast.LENGTH_SHORT).show();
-                    startTrimActivity(selectedUri);
-                } else {
-                    Toast.makeText(MainActivity.this, R.string.toast_cannot_retrieve_selected_video, Toast.LENGTH_SHORT).show();
-                }
-            }
-        }
-    }
-
-    private void startTrimActivity(@NonNull Uri uri) {
-        Intent intent = new Intent(this, TrimmerActivity.class);
-        intent.putExtra(EXTRA_VIDEO_PATH, FileUtils.getPath(this, uri));
-        startActivity(intent);
-    }
-
-    /**
-     * Requests given permission.
-     * If the permission has been denied previously, a Dialog will prompt the user to grant the
-     * permission, otherwise it is requested directly.
-     */
-    private void requestPermission(final String permission, String rationale, final int requestCode) {
-        if (ActivityCompat.shouldShowRequestPermissionRationale(this, permission)) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle(getString(R.string.permission_title_rationale));
-            builder.setMessage(rationale);
-            builder.setPositiveButton(getString(R.string.label_ok), new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    ActivityCompat.requestPermissions(MainActivity.this, new String[]{permission}, requestCode);
-                }
-            });
-            builder.setNegativeButton(getString(R.string.label_cancel), null);
-            builder.show();
-        } else {
-            ActivityCompat.requestPermissions(this, new String[]{permission}, requestCode);
-        }
-    }
-
-    /**
-     * Callback received when a permissions request has been completed.
-     */
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        switch (requestCode) {
-            case REQUEST_STORAGE_READ_ACCESS_PERMISSION:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    pickFromGallery();
-                }
-                break;
-            default:
-                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        }
+    public void onBackPressed() {
+        backPressCloseHandler.onBackPressed();
     }
 }
+

@@ -1,49 +1,49 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
 	package
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:2:5-43
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:1-11:12
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:4:5-81
+ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:4:22-78
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:4:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:5:5-79
+ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:5:22-77
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:6:5-9:19
+ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:6:5-9:19
 	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml:7:9-35
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml:7:9-35
 uses-sdk
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\Desktop\ace2-master (2)\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		ADDED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
+		INJECTED from E:\android_worksapce\ace2-master\k4l-video-trimmer\src\main\AndroidManifest.xml
