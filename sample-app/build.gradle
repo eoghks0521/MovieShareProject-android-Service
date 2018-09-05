@@ -17,6 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    externalNativeBuild {
+
+        ndkBuild {
+
+            path 'src/main/jni/Android.mk'
+
+        }
+
+    }
 }
 
 repositories {
@@ -29,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     //compile 'life.knowledge4:k4l-video-trimmer:0.1-SNAPSHOT'
     implementation project(':k4l-video-trimmer')
     implementation 'com.android.support:appcompat-v7:27.1.1'
@@ -43,4 +52,5 @@ dependencies {
     androidTestImplementation 'com.android.support:support-annotations:27.1.1'
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation project(':openCVLibrary341')
 }

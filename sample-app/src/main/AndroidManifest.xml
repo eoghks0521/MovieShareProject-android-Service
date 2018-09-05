@@ -8,7 +8,25 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
 
     <application
         android:name=".ApplicationController"
@@ -22,11 +40,14 @@
         <activity android:name=".TrimmerActivity" />
         <activity android:name=".FriendActivity" />
         <activity android:name=".FunctionListActivity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".RegistActivity" />
         <activity android:name=".UploadActivity" />
         <activity android:name=".UploadListActivity" />
-        <activity android:name=".Brother" />
+        <activity
+            android:name=".Brother"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
         <activity android:name=".LoadingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,6 +55,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".FriendEditorActivity" />
+        <activity android:name=".FriendAddActivity" />
     </application>
 
 </manifest>

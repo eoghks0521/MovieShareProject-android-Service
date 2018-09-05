@@ -228,7 +228,7 @@ public class UploadListActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String id = intent.getStringExtra("clientid");
-        webView.loadUrl("http://bc80af00.ngrok.io/test2/"+id+"/");
+        webView.loadUrl("http://6bbe2035.ngrok.io/test2/"+id+"/");
     }
 
 }

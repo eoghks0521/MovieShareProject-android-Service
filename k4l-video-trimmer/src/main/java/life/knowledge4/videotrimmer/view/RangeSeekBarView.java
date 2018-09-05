@@ -105,6 +105,8 @@ public class RangeSeekBarView extends View {
 
         int minW = getPaddingLeft() + getPaddingRight() + getSuggestedMinimumWidth();
         mViewWidth = resolveSizeAndState(minW, widthMeasureSpec, 1);
+        Log.i("kwon2","============="+mViewWidth);
+        Log.i("kwon2","====================!!!!!"+mThumbWidth);
 
         int minH = getPaddingBottom() + getPaddingTop() + (int) mThumbHeight + mHeightTimeLine;
         int viewHeight = resolveSizeAndState(minH, heightMeasureSpec, 1);

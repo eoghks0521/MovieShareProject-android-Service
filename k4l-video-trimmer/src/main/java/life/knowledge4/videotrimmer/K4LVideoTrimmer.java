@@ -439,6 +439,7 @@ public class K4LVideoTrimmer extends FrameLayout {
     }
 
     private void onPlayerIndicatorSeekChanged(int progress, boolean fromUser) {
+        Log.i("kwon", "===========onPlayerIndicatorSeekChanged"+mDuration);
 
         int duration = (int) ((mDuration * progress) / 1000L);
 
@@ -465,6 +466,7 @@ public class K4LVideoTrimmer extends FrameLayout {
         mMessageHandler.removeMessages(SHOW_PROGRESS);
         mVideoView.pause();
         mPlayView.setVisibility(View.VISIBLE);
+        Log.i("kwon", "====================onPlayerIndicatorSeekStop"+mDuration);
 
         int duration = (int) ((mDuration * seekBar.getProgress()) / 1000L);
         mVideoView.seekTo(duration);
@@ -506,6 +508,9 @@ public class K4LVideoTrimmer extends FrameLayout {
     }
 
     private void setSeekBarPosition() {
+        Log.i("kwon", "====================setSeekBarPosition"+"=========="+mDuration);
+        Log.i("kwon", "====================setSeekBarPosition maxDuration"+"=========="+mMaxDuration);
+
 
         if (mDuration >= mMaxDuration) {
             mStartPosition = mDuration / 2 - mMaxDuration / 2;
@@ -662,7 +667,7 @@ public class K4LVideoTrimmer extends FrameLayout {
      */
     @SuppressWarnings("unused")
     public void setMaxDuration(int maxDuration) {
-        mMaxDuration = maxDuration * 1000;
+        mMaxDuration = maxDuration * 3000;
     }
 
     /**

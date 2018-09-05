@@ -1,1 +1,3 @@
 include ':sample-app' ,':k4l-video-trimmer'
+
+include ':openCVLibrary341'

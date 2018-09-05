@@ -30,5 +30,19 @@ public interface NetworkService {
     Call<PassId> post_passid(@Body PassId passid);
     @GET("/clients/")
     Call<List<Client>> get_client();
+    @GET("/users/")
+    Call<List<Brother.User>> get_user();
+
+    @GET("/thumbnail/")
+    Call<Brother.Video_frame> get_frame();
+
+    @GET("/thumbnail/{idx}/")
+    Call<Brother.Video_frame> get_frame_idx(@Path("idx") int idx);
+
+    @POST("/thumbnail/")
+    Call<Brother.Thumbnail> post_thumbnail(@Body Brother.Thumbnail thumbnail);
+
+    @POST("/getframe/")
+    Call<Brother.Video_frame> post_frame(@Body Brother.Index idx);
 }
 

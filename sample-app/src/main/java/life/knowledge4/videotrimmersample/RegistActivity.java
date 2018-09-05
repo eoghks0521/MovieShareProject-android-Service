@@ -71,7 +71,7 @@ public class RegistActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ApplicationController application = ApplicationController.getInstance();
-        application.buildNetworkService("bc80af00.ngrok.io");
+        application.buildNetworkService("6bbe2035.ngrok.io");
         networkService = ApplicationController.getInstance().getNetworkService();
     }
 }

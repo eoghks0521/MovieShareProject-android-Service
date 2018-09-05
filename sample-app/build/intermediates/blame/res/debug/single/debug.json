@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img1.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\loading_img1.png"
+    },
+    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -84,24 +88,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_a01.png.flat",
-        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\a01.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_a01.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\a01.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -176,6 +180,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup.xml.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\layout\\activity_popup.xml"
+    },
+    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -188,16 +196,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_videocam_black_24dp.png.flat",
-        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_videocam_black_24dp.png"
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\anim\\design_snackbar_in.xml"
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_videocam_black_24dp.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_videocam_black_24dp.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -220,12 +228,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -272,12 +280,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6f71fd425ae072233dc0c94b1f8dc0f9\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_apptheme_text_select_handle_middle.png.flat",
         "source": "E:\\android_worksapce\\ace2-master\\k4l-video-trimmer\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\apptheme_text_select_handle_middle.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6f71fd425ae072233dc0c94b1f8dc0f9\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -288,12 +296,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21_ic_launcher_foreground.png.flat",
-        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_launcher_foreground.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
@@ -326,6 +334,10 @@
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img3.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\loading_img3.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
@@ -372,36 +384,36 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6f71fd425ae072233dc0c94b1f8dc0f9\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6f71fd425ae072233dc0c94b1f8dc0f9\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -456,12 +468,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -788,6 +800,10 @@
         "source": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_videocam_black_24dp.png"
     },
     {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img5.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\loading_img5.png"
+    },
+    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -1024,6 +1040,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\71db1c416ad7ee7085c2ae7574a29225\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img2.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\loading_img2.png"
+    },
+    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1096,6 +1116,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -1130,6 +1154,10 @@
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_loading_img4.png.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\drawable\\loading_img4.png"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -1302,6 +1330,10 @@
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friend_add.xml.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\layout\\activity_friend_add.xml"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
@@ -1842,6 +1874,10 @@
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\72598324b35fec38b2c6fa655d39ec1d\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_friend_editor.xml.flat",
+        "source": "E:\\android_worksapce\\ace2-master\\sample-app\\src\\main\\res\\layout\\activity_friend_editor.xml"
     },
     {
         "merged": "E:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",

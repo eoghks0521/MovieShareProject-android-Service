@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/k4l-video-trimmer" />
+            <option value="$PROJECT_DIR$/openCVLibrary341" />
             <option value="$PROJECT_DIR$/sample-app" />
           </set>
         </option>

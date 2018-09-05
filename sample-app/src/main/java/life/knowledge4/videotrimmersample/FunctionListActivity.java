@@ -88,14 +88,14 @@ public class FunctionListActivity extends AppCompatActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        button3.setTextColor(Color.RED);
+                        button3.setBackgroundColor(Color.RED);
                         button3.setTextColor(Color.BLACK);
                         break;
 
                     case MotionEvent.ACTION_UP:
                         button3.setBackgroundColor(Color.BLACK);
                         button3.setTextColor(Color.GRAY);
-                        Intent intent3 = new Intent(getApplicationContext(),FriendActivity.class);
+                        Intent intent3 = new Intent(getApplicationContext(),FriendEditorActivity.class);
                         intent3.putExtra("clientid",id);
                         startActivity(intent3);
                         break;
@@ -110,7 +110,7 @@ public class FunctionListActivity extends AppCompatActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        button4.setTextColor(Color.RED);
+                        button4.setBackgroundColor(Color.RED);
                         button4.setTextColor(Color.BLACK);
                         break;
 

@@ -15,9 +15,9 @@ import java.lang.Override;
 public class MainActivity_ViewBinding implements Unbinder {
   private MainActivity target;
 
-  private View view2131230759;
+  private View view2131230762;
 
-  private View view2131230761;
+  private View view2131230764;
 
   @UiThread
   public MainActivity_ViewBinding(MainActivity target) {
@@ -33,7 +33,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.textView = Utils.findRequiredViewAsType(source, R.id.textView, "field 'textView'", TextView.class);
     target.editText2 = Utils.findRequiredViewAsType(source, R.id.editText2, "field 'editText2'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btn, "method 'btn_Click'");
-    view2131230759 = view;
+    view2131230762 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class MainActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.btn2, "method 'btn2_Click'");
-    view2131230761 = view;
+    view2131230764 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,9 +61,9 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.textView = null;
     target.editText2 = null;
 
-    view2131230759.setOnClickListener(null);
-    view2131230759 = null;
-    view2131230761.setOnClickListener(null);
-    view2131230761 = null;
+    view2131230762.setOnClickListener(null);
+    view2131230762 = null;
+    view2131230764.setOnClickListener(null);
+    view2131230764 = null;
   }
 }

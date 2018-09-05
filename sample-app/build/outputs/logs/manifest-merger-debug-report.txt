@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
 MERGED from [:k4l-video-trimmer] E:\android_worksapce\ace2-master\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\71db1c416ad7ee7085c2ae7574a29225\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\72598324b35fec38b2c6fa655d39ec1d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d5d31e11b233340c2b3d2aaa5be007b2\AndroidManifest.xml:2:1-7:12
+MERGED from [:openCVLibrary341] E:\android_worksapce\ace2-master\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\583c4e6bf43adc42d3f3d742013538d2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\915146dce65ce0c178b239899c83c15f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\29bb9daa8461c5a9fc455a7f88363c11\AndroidManifest.xml:17:1-22:12
@@ -23,20 +24,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5e67ed66cad7a4c25c12d2664a067295\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6f28488abc5fc477989401ae83237cc5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\16404b43580e7c979b77800efc2f3bc0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:1-65:12
 		INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:2:11-69
@@ -65,79 +66,129 @@ ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.
 	android:name
 		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:9:22-62
 uses-feature#android.hardware.camera
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:11:5-60
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:13:9-33
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:11:19-57
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.camera.front
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:21:9-63
+supports-screens
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:24:5-29:39
+	android:largeScreens
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:26:9-36
+	android:smallScreens
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:29:9-36
+	android:normalScreens
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:27:9-37
+	android:resizeable
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:28:9-34
+	android:anyDensity
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:25:9-34
 application
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:13:5-37:19
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:31:5-63:19
 MERGED from [:k4l-video-trimmer] E:\android_worksapce\ace2-master\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-15:19
 MERGED from [:k4l-video-trimmer] E:\android_worksapce\ace2-master\k4l-video-trimmer\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:35:9-41
 	android:roundIcon
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:36:9-54
 	android:icon
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:34:9-43
 	android:allowBackup
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:33:9-35
 	android:theme
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:38:9-40
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:14:9-46
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:32:9-46
 activity#life.knowledge4.videotrimmersample.VideoEditorActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:21:9-57
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:21:19-54
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:39:19-54
 activity#life.knowledge4.videotrimmersample.TrimmerActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:22:9-53
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:40:9-53
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:22:19-50
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:40:19-50
 activity#life.knowledge4.videotrimmersample.FriendActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:23:9-52
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:41:9-52
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:23:19-49
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:41:19-49
 activity#life.knowledge4.videotrimmersample.FunctionListActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:24:9-58
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:42:9-58
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:24:19-55
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:42:19-55
 activity#life.knowledge4.videotrimmersample.MainActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:25:9-49
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:43:9-50
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:43:19-47
 activity#life.knowledge4.videotrimmersample.RegistActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:26:9-52
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:44:9-52
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:26:19-49
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:44:19-49
 activity#life.knowledge4.videotrimmersample.UploadActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:27:9-52
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:27:19-49
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:45:19-49
 activity#life.knowledge4.videotrimmersample.UploadListActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:28:9-56
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:46:9-56
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:28:19-53
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:46:19-53
 activity#life.knowledge4.videotrimmersample.Brother
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:29:9-45
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:47:9-50:53
+	android:screenOrientation
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:50:13-50
+	android:configChanges
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:49:13-63
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:29:19-42
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:48:13-36
 activity#life.knowledge4.videotrimmersample.LoadingActivity
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:30:9-36:20
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:51:9-57:20
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:30:19-50
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:51:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:32:17-69
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:34:17-77
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:55:27-74
+activity#life.knowledge4.videotrimmersample.PopupActivity
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:58:9-60:59
+	android:theme
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:59:13-42
+activity#life.knowledge4.videotrimmersample.FriendEditorActivity
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:61:9-58
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:61:19-55
+activity#life.knowledge4.videotrimmersample.FriendAddActivity
+ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:62:9-55
+	android:name
+		ADDED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml:62:19-52
 uses-sdk
 INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\android_worksapce\ace2-master\sample-app\src\main\AndroidManifest.xml
@@ -152,6 +203,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Ad
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\5ab1af3238e577d48f8d35a52f90e357\AndroidManifest.xml:5:5-7:41
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d5d31e11b233340c2b3d2aaa5be007b2\AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d5d31e11b233340c2b3d2aaa5be007b2\AndroidManifest.xml:5:5-43
+MERGED from [:openCVLibrary341] E:\android_worksapce\ace2-master\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary341] E:\android_worksapce\ace2-master\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\583c4e6bf43adc42d3f3d742013538d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\583c4e6bf43adc42d3f3d742013538d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\915146dce65ce0c178b239899c83c15f\AndroidManifest.xml:20:5-44

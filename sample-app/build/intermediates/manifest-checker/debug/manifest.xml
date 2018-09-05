@@ -14,7 +14,25 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
 
     <application
         android:name="life.knowledge4.videotrimmersample.ApplicationController"
@@ -34,7 +52,10 @@
         <activity android:name="life.knowledge4.videotrimmersample.RegistActivity" />
         <activity android:name="life.knowledge4.videotrimmersample.UploadActivity" />
         <activity android:name="life.knowledge4.videotrimmersample.UploadListActivity" />
-        <activity android:name="life.knowledge4.videotrimmersample.Brother" />
+        <activity
+            android:name="life.knowledge4.videotrimmersample.Brother"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
         <activity android:name="life.knowledge4.videotrimmersample.LoadingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,6 +63,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="life.knowledge4.videotrimmersample.PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="life.knowledge4.videotrimmersample.FriendEditorActivity" />
+        <activity android:name="life.knowledge4.videotrimmersample.FriendAddActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

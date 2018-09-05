@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @OnClick(R.id.btn)
     public void btn_Click() {
         //GET
@@ -48,12 +49,14 @@ public class MainActivity extends AppCompatActivity {
                     List<Client> client_List = response.body();
 
                     String client_txt = "";
+                    int popupresult=0;
                     for (Client client : client_List) {
                         Log.i("kwon",client.getClientid()+"====="+id+id.compareTo(client.getClientid()));
                         Log.i("kwon",client.getPassword()+"====="+pw+pw.compareTo(client.getPassword()));
 
                         if(id.equals(client.getClientid().toString()) && pw.equals(client.getPassword().toString())) {
-                            textView.setText("성공");
+                            //textView.setText("성공");
+                            popupresult=1;
 
                             passId.setPassid(id);
                             Call<PassId> postCall = networkService.post_passid(passId);
@@ -74,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                                     Log.i(ApplicationController.TAG, "Fail Message : " + t.getMessage());
                                 }
                             });
-                            Log.i("kwon","여기가 안돼요");
+                            //Log.i("kwon","여기가 안돼요");
                             Intent intent = new Intent(getApplicationContext(),FunctionListActivity.class);
                             intent.putExtra("clientid",id);
                             startActivity(intent);
@@ -90,8 +93,15 @@ public class MainActivity extends AppCompatActivity {
                             */
                             break;
                         }
-                        textView.setText("실패");
+
+                        //textView.setText("실패");
                     }
+                    if(popupresult==0) {
+                        Intent intent5 = new Intent(getApplicationContext(), PopupActivity.class);
+                        intent5.putExtra("data", "로그인 실패입니다.");
+                        startActivity(intent5);
+                    }
+
                 } else {
                     int StatusCode = response.code();
                     Log.i(ApplicationController.TAG, "Status Code : " + StatusCode);
@@ -112,8 +122,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -122,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ApplicationController application = ApplicationController.getInstance();
-        application.buildNetworkService("bc80af00.ngrok.io");
+        application.buildNetworkService("6bbe2035.ngrok.io");
         networkService = ApplicationController.getInstance().getNetworkService();
 
         backPressCloseHandler = new BackPressCloseHandler(this);

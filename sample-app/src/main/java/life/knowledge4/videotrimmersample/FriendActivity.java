@@ -239,7 +239,7 @@ public class FriendActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String id = intent.getStringExtra("clientid");
-        webView.loadUrl("http://bc80af00.ngrok.io/friendadd/"+id+"/");
+        webView.loadUrl("http://6bbe2035.ngrok.io/friendadd/"+id+"/");
     }
 
 
