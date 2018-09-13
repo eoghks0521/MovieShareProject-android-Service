@@ -27,6 +27,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -393,8 +396,23 @@ public class K4LVideoTrimmer extends FrameLayout {
 
                 }
 
+
+                Bitmap bitmap;
+                bitmap = Bitmap.createBitmap(450+200,300+80,Bitmap.Config.ARGB_8888);
+                bitmap.eraseColor(Color.WHITE);
+
+
+
                 FileOutputStream out = new FileOutputStream(sdPath+"/"+noExtension+".jpg");
-                bmFrame.compress(Bitmap.CompressFormat.JPEG, 100, out); out.close();
+                bmFrame = Bitmap.createScaledBitmap(bmFrame,450,300,true);
+
+                Canvas canvas = new Canvas(bitmap);
+                Paint paint = new Paint(Paint.FILTER_BITMAP_FLAG);
+                canvas.drawBitmap(bmFrame, 150, 40, paint);
+
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);
+                out.close();
+
 
 
                 Log.i("kwon","===========3333333333333"+noExtension);

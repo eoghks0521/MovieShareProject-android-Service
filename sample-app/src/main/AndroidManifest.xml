@@ -60,6 +60,10 @@
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".FriendEditorActivity" />
         <activity android:name=".FriendAddActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

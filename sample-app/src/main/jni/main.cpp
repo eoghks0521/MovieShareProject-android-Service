@@ -60,7 +60,7 @@ cv::Mat debugSquares(std::vector<std::vector<cv::Point> > squares, cv::Mat image
 {
         for (int i = 0; i< squares.size(); i++) {
                 // draw contour
-                cv::drawContours(image, squares, i, cv::Scalar(255, 0, 0), 5, 8, std::vector<cv::Vec4i>(), 0, cv::Point());
+                cv::drawContours(image, squares, i, cv::Scalar(255, 0, 0), 2, 8, std::vector<cv::Vec4i>(), 0, cv::Point());
 
                 // draw bounding rect
                 cv::Rect rect = boundingRect(cv::Mat(squares[i]));
@@ -104,9 +104,9 @@ float RightTop_y;
 extern "C"
 JNIEXPORT void JNICALL
 Java_life_knowledge4_videotrimmersample_Brother_ConvertRGBtoGray( JNIEnv *env,
-                                                             jobject instance,
-                                                             jlong matAddrInput,
-                                                             jlong matAddrResult, jlong video_mat, jlong thumbnail_mat, jint reset, jint thumb
+                                                                  jobject instance,
+                                                                  jlong matAddrInput,
+                                                                  jlong matAddrResult, jlong video_mat, jlong thumbnail_mat, jint reset, jint thumb
 ){
         //jlong video_mat
 
@@ -222,7 +222,7 @@ Java_life_knowledge4_videotrimmersample_Brother_ConvertRGBtoGray( JNIEnv *env,
         std::vector<std::vector<cv::Point> > squares;
         std::vector<std::vector<cv::Point> > squares_tmp;
         cv::Mat pyr, timg, gray0(frame.size(), CV_8U), gray;
-        int thresh = 200, N = 11;
+        int thresh = 100, N = 11;
         cv::pyrDown(frame, pyr, cv::Size(frame.cols / 2, frame.rows / 2));
         cv::pyrUp(pyr, timg, frame.size());
         std::vector<std::vector<cv::Point> > contours;
@@ -232,7 +232,7 @@ Java_life_knowledge4_videotrimmersample_Brother_ConvertRGBtoGray( JNIEnv *env,
                 for (int l = 0; l < N; l++) {
                         if (l == 0) {
                                 GaussianBlur(gray0, gray0, Size(3, 3), 0);
-                                cv::Canny(gray0, gray, 75, thresh);
+                                cv::Canny(gray0, gray, 0, thresh);
                                 cv::dilate(gray, gray, cv::Mat(), cv::Point(-1, -1));
                         }
                         else {

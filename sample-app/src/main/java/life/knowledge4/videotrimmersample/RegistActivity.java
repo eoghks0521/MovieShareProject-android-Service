@@ -35,7 +35,7 @@ public class RegistActivity extends AppCompatActivity {
         String pw = tv3.getText().toString();
         String pw2 = tv2.getText().toString();
 
-        if(pw!=pw2){
+        if(!pw.equals(pw2)){
             Toast.makeText(getApplicationContext(),"비밀 번호가 다릅니다.",Toast.LENGTH_LONG).show();
         }
         else {
@@ -47,6 +47,7 @@ public class RegistActivity extends AppCompatActivity {
                 public void onResponse(Call<Client> call, Response<Client> response) {
                     if (response.isSuccessful()) {
                         Toast.makeText(getApplicationContext(), "가입 완료", Toast.LENGTH_LONG).show();
+                        finish();
                     } else {
                         Toast.makeText(getApplicationContext(), "가입 실패", Toast.LENGTH_LONG).show();
                         int StatusCode = response.code();
@@ -71,7 +72,8 @@ public class RegistActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ApplicationController application = ApplicationController.getInstance();
-        application.buildNetworkService("6bbe2035.ngrok.io");
+        //application.buildNetworkService("adac2e83.ngrok.io");
+        application.buildNetworkService("52.194.102.63", 8000);
         networkService = ApplicationController.getInstance().getNetworkService();
     }
 }

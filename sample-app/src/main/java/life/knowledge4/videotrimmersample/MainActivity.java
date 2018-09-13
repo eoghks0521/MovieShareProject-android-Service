@@ -130,7 +130,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ApplicationController application = ApplicationController.getInstance();
-        application.buildNetworkService("6bbe2035.ngrok.io");
+        //application.buildNetworkService("adac2e83.ngrok.io");
+        application.buildNetworkService("52.194.102.63", 8000);
         networkService = ApplicationController.getInstance().getNetworkService();
 
         backPressCloseHandler = new BackPressCloseHandler(this);

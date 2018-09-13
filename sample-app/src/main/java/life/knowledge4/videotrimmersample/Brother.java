@@ -479,7 +479,7 @@ public class Brother extends AppCompatActivity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
                 WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_brother);
 
         reset_btn = (Button)findViewById(R.id.reset_btn);
         thumb_btn = (Button)findViewById(R.id.thumb_btn);
@@ -576,50 +576,52 @@ public class Brother extends AppCompatActivity
 
         Button.OnClickListener reset_ClickListener = new View.OnClickListener() {
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, "Hey I'm a toast messsage",Toast.LENGTH_LONG).show();
-                reset = 1;
-                ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr(), video_mat.getNativeObjAddr(), thumbnail.getNativeObjAddr(), reset, thumb);
-                thumbnail_f = 0;
-                thumb = 0;
-                thumbnail = new Mat(500, 500, CvType.CV_8UC4);
-                video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
-                video_mat_bmp = Bitmap.createBitmap(video_size, video_size, Bitmap.Config.ARGB_8888);
-                cnt = 0;
-                /*
-                for(int j=0;j<(int)(video_mat_arr.length / loading_img_arr.length);j++) {
-                    for (int i = 0; i < loading_img_arr.length; i++) {
-                        Utils.bitmapToMat(loading_img_arr[i], video_mat);
-                        video_mat_arr[(5*j) + i] = video_mat;
-                        if (i != loading_img_arr.length - 1) {
-                            video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                for(int rs=0;rs<2;rs++) {
+                    //Toast.makeText(MainActivity.this, "Hey I'm a toast messsage",Toast.LENGTH_LONG).show();
+                    reset = 1;
+                    ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr(), video_mat.getNativeObjAddr(), thumbnail.getNativeObjAddr(), reset, thumb);
+                    thumbnail_f = 0;
+                    thumb = 0;
+                    thumbnail = new Mat(500, 500, CvType.CV_8UC4);
+                    video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                    video_mat_bmp = Bitmap.createBitmap(video_size, video_size, Bitmap.Config.ARGB_8888);
+                    cnt = 0;
+                    /*
+                    for(int j=0;j<(int)(video_mat_arr.length / loading_img_arr.length);j++) {
+                        for (int i = 0; i < loading_img_arr.length; i++) {
+                            Utils.bitmapToMat(loading_img_arr[i], video_mat);
+                            video_mat_arr[(5*j) + i] = video_mat;
+                            if (i != loading_img_arr.length - 1) {
+                                video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                            }
                         }
                     }
-                }
-                */
+                    */
 
-                get_frame_thread = new Thread[45];
-                check = 0;
-                sb.setProgress(0);
-                int k=0;
-                for(int i=0;i<=90*10;i=i+90){
-                    video_thread_arr[k++] = new MyRunnable(i);
+                    get_frame_thread = new Thread[45];
+                    check = 0;
+                    sb.setProgress(0);
+                    int k = 0;
+                    for (int i = 0; i <= 90 * 10; i = i + 90) {
+                        video_thread_arr[k++] = new MyRunnable(i);
+                    }
+                    for (int i = 0; i < 900; i++) {
+                        frame_check[i] = 0;
+                    }
+                    video_mat_arr = new Mat[450];
+                    video_mat_arr2 = new Mat[450];
+                    start_20 = 0;
+                    sb_check = true;
+                    sb_cnt = 0;
+                    progress_text.setText("0:00");
+                    sec_text.setText("wait");
+                    /*
+                    for(int i=0;i<45;i++){
+                        thread_is_finish[i] = 0;
+                    }
+                    */
+                    executor = Executors.newSingleThreadExecutor();
                 }
-                for(int i=0;i<900;i++){
-                    frame_check[i] = 0;
-                }
-                video_mat_arr = new Mat[450];
-                video_mat_arr2 = new Mat[450];
-                start_20 = 0;
-                sb_check = true;
-                sb_cnt = 0;
-                progress_text.setText("0:00");
-                sec_text.setText("wait");
-                /*
-                for(int i=0;i<45;i++){
-                    thread_is_finish[i] = 0;
-                }
-                */
-                executor = Executors.newSingleThreadExecutor();
             }
         };
         reset_btn.setOnClickListener(reset_ClickListener);
@@ -653,8 +655,8 @@ public class Brother extends AppCompatActivity
 
 
         ApplicationController application = ApplicationController.getInstance();
-        //application.buildNetworkService("52.194.102.63", 8000);
-        application.buildNetworkService("4b5ab794.ngrok.io");
+        application.buildNetworkService("52.194.102.63", 8000);
+        //application.buildNetworkService("44ea0d45.ngrok.io");
         //application.buildNetworkService("자신의 ip", 8000);
         networkService = ApplicationController.getInstance().getNetworkService();
 
@@ -672,7 +674,7 @@ public class Brother extends AppCompatActivity
         mOpenCvCameraView.setCvCameraViewListener(this);
         mOpenCvCameraView.setCameraIndex(0); // front-camera(1),  back-camera(0)
         //mOpenCvCameraView.setMaxFrameSize(720,480);
-        mOpenCvCameraView.setMaxFrameSize(600,480);
+        mOpenCvCameraView.setMaxFrameSize(400,400);
         //mOpenCvCameraView.setMaxFrameSize(500,300);
         mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
 
@@ -756,7 +758,7 @@ public class Brother extends AppCompatActivity
         matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
 
 
-        if(video_mat_arr[cnt] == null && check >= Math.round((float)post_resp_result_duration/90)){
+        if(video_mat_arr[cnt] == null && check >= Math.ceil((float)post_resp_result_duration/90)){
             cnt = 0;
         }
 
@@ -768,7 +770,7 @@ public class Brother extends AppCompatActivity
             cnt = (cnt + 1) % 5;
         }
 
-        else if(3 <= check && check <= Math.round((float)post_resp_result_duration/90) && frame_check[0] == 1 && frame_check[1] == 1){
+        else if(3 <= check && check <= Math.ceil((float)post_resp_result_duration/90) && frame_check[0] == 1 && frame_check[1] == 1){
             if(start_20 == 0){
                 cnt = 0;
                 start_20 = 1;
@@ -796,7 +798,7 @@ public class Brother extends AppCompatActivity
                         sb_cnt = (sb_cnt + 1) % post_resp_result_duration;
                     }
                 }
-                else {
+                if(cnt == post_resp_result_duration-2){
                     cnt = 0;
                 }
             }
@@ -815,6 +817,7 @@ public class Brother extends AppCompatActivity
                     }
                 }
                 else {
+                    arr1_done = 0;
                     cnt = 0;
                 }
             }
@@ -867,7 +870,7 @@ public class Brother extends AppCompatActivity
                         post_resp_result_max_id = post_resp.getMax_id();
                         post_resp_result_duration = post_resp.getDuration();
                         post_resp_result_total_sec = post_resp.getTotal_sec();
-                        Log.i(ApplicationController.TAG, "HIHI Message : post_resp_result_total_sec = " + Integer.toString(post_resp_result_total_sec));
+                        Log.i(ApplicationController.TAG, "HIHI Message : post_resp_result_total_sec = " + Integer.toString(post_resp_result_duration));
                         Log.i(ApplicationController.TAG, "HIHI Message : post_resp_result = " + post_resp_result_success);
 
                         if(post_resp_result_success.equals("1")) {
@@ -876,7 +879,7 @@ public class Brother extends AppCompatActivity
                                 video_thread_arr[idx].setThumbnail_id(post_resp_result_max_id);
                                 get_frame_thread[idx % 10] = new Thread(video_thread_arr[idx]);
                                 get_frame_thread[idx % 10].start();
-                            }
+    }
                             */
 
                             if(post_resp_result_duration >= 900){
@@ -888,7 +891,7 @@ public class Brother extends AppCompatActivity
                             sb.setMax(post_resp_result_total_sec);
                             sec_text.setText("0:" + Integer.toString(post_resp_result_total_sec));
                             //Log.i(ApplicationController.TAG, "HIHI Message : Math.round(post_resp_result_duration/60) = " + Integer.toString(Math.round((float)post_resp_result_duration/60)));
-                            for(int x=0;x<Math.round((float)post_resp_result_duration/90);x++){
+                            for(int x=0;x<Math.ceil((float)post_resp_result_duration/90);x++){
                                 video_thread_arr[x].setThumbnail_id(post_resp_result_max_id);
                                 executor.execute(video_thread_arr[x]);
                                 System.out.println(Integer.toString(x) + "번쓰래드 submit");
@@ -897,6 +900,50 @@ public class Brother extends AppCompatActivity
                         }
 
                         else {
+                            thumbnail = new Mat(500, 500, CvType.CV_8UC4);
+                            thumbnail_post = new Thumbnail();
+                            reset = 1;
+                            ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr(), video_mat.getNativeObjAddr(), thumbnail.getNativeObjAddr(), reset, thumb);
+                            thumbnail_f = 0;
+                            thumb = 0;
+                            video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                            video_mat_bmp = Bitmap.createBitmap(video_size, video_size, Bitmap.Config.ARGB_8888);
+                            cnt = 0;
+                            /*
+                            for(int j=0;j<(int)(video_mat_arr.length / loading_img_arr.length);j++) {
+                                for (int i = 0; i < loading_img_arr.length; i++) {
+                                    Utils.bitmapToMat(loading_img_arr[i], video_mat);
+                                    video_mat_arr[(5*j) + i] = video_mat;
+                                    if (i != loading_img_arr.length - 1) {
+                                        video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                                    }
+                                }
+                            }
+                            */
+
+                            get_frame_thread = new Thread[45];
+                            check = 0;
+                            sb.setProgress(0);
+                            int k=0;
+                            for(int i=0;i<=90*10;i=i+90){
+                                video_thread_arr[k++] = new MyRunnable(i);
+                            }
+                            for(int i=0;i<900;i++){
+                                frame_check[i] = 0;
+                            }
+                            video_mat_arr = new Mat[450];
+                            video_mat_arr2 = new Mat[450];
+                            start_20 = 0;
+                            sb_check = true;
+                            sb_cnt = 0;
+                            progress_text.setText("0:00");
+                            sec_text.setText("wait");
+                            /*
+                            for(int i=0;i<45;i++){
+                                thread_is_finish[i] = 0;
+                            }
+                            */
+                            executor = Executors.newSingleThreadExecutor();
                             Toast.makeText(Brother.this, "해당 썸네일이 없습니다.", Toast.LENGTH_LONG).show();
                         }
 

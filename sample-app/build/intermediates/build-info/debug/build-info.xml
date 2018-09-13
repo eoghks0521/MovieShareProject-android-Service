@@ -1,86 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="27"
-    build-mode="FULL"
-    density="xxhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="26"
+    build-mode="COLD"
+    density="560dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1536119071247"
+    timestamp="1536823610999"
     token="4424530640361807810"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="9578" />
+        duration="4208" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7407" />
+        duration="100" />
     <task
         name="verifier"
-        duration="407" />
+        duration="104" />
 
     <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
         location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\instant-run-apk\debug\sample-app-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1536119071247"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="COMPATIBLE"
+        timestamp="1536819602548"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\instant-run-apk\debug\sample-app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -89,22 +52,43 @@
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\instant-run-apk\debug\sample-app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1536823154618"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\instant-run-apk\debug\sample-app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1536823610999"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
     </build>
 

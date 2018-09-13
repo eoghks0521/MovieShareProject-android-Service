@@ -5,7 +5,7 @@ public class Pictures {
            "Name","loading"
     };
     public static int[] pictures={
-            R.drawable.a01, R.drawable.a03
+            R.drawable.a01, R.drawable.oi
     };
 
 }

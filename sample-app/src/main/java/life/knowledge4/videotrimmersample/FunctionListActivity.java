@@ -48,8 +48,8 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button1.setBackgroundColor(Color.BLACK);
-                        button1.setTextColor(Color.GRAY);
+                        button1.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button1.setTextColor(Color.WHITE);
                         Intent intent3 = new Intent(getApplicationContext(),UploadActivity.class);
                         intent3.putExtra("clientid",id);
                         startActivity(intent3);
@@ -71,8 +71,8 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button2.setBackgroundColor(Color.BLACK);
-                        button2.setTextColor(Color.GRAY);
+                        button2.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button2.setTextColor(Color.WHITE);
                         Intent intent2 = new Intent(getApplicationContext(),UploadListActivity.class);
                         intent2.putExtra("clientid",id);
                         startActivity(intent2);
@@ -93,8 +93,8 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button3.setBackgroundColor(Color.BLACK);
-                        button3.setTextColor(Color.GRAY);
+                        button3.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button3.setTextColor(Color.WHITE);
                         Intent intent3 = new Intent(getApplicationContext(),FriendEditorActivity.class);
                         intent3.putExtra("clientid",id);
                         startActivity(intent3);
@@ -115,8 +115,8 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button4.setBackgroundColor(Color.BLACK);
-                        button4.setTextColor(Color.GRAY);
+                        button4.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button4.setTextColor(Color.WHITE);
                         Intent intent4 = new Intent(getApplicationContext(),VideoEditorActivity.class);
                         intent4.putExtra("clientid",id);
                         startActivity(intent4);

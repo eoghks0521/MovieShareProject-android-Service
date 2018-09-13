@@ -230,6 +230,6 @@ public class UploadActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String id = intent.getStringExtra("clientid");
-        webView.loadUrl("http://6bbe2035.ngrok.io/test/"+id+"/");
+        webView.loadUrl("http://52.194.102.63:8000/test/"+id+"/");
     }
 }

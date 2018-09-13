@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="21"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -68,6 +68,10 @@
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name="life.knowledge4.videotrimmersample.FriendEditorActivity" />
         <activity android:name="life.knowledge4.videotrimmersample.FriendAddActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

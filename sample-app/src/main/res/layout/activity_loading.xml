@@ -18,23 +18,28 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@drawable/oi" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
-                android:gravity="center_vertical"
+                android:fontFamily="@font/hind_guntur_light"
+                android:gravity="center"
+                android:shadowColor="@android:color/background_light"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
                 android:text="Movie Catcher"
-                android:textColor="@color/background_progress_color"
-                android:textSize="60sp" />
+                android:textColor="@color/bg_login"
+                android:textSize="55sp" />
+
         </LinearLayout>
     </FrameLayout>
 

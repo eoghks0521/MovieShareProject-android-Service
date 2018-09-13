@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/blur1"
+    android:background="@drawable/qwe2"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp">
@@ -22,7 +22,6 @@
             android:autoText="true"
             android:fontFamily="cursive"
             android:gravity="center"
-            android:text="Movie Catcher"
             android:textColor="@android:color/background_light"
             android:textSize="55sp" />
     </LinearLayout>
@@ -72,9 +71,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dip"
-            android:alpha="0.5"
             android:text="Regist"
-            android:textColor="#fff" />
+            android:textColor="#fff"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/btnLinkToRegisterScreen"

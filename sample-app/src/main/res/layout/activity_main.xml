@@ -3,36 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/blur1"
+    android:background="@drawable/qwe2"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.65"
-            android:fontFamily="cursive"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lemon"
             android:gravity="center"
+            android:shadowColor="@color/bg_main"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
             android:text="Movie Catcher"
             android:textColor="@android:color/background_light"
-            android:textSize="55sp" />
+            android:textSize="64sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_weight="3"
         android:orientation="vertical"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
 
         <EditText
             android:id="@+id/editText"
@@ -64,9 +71,11 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dip"
-            android:alpha="0.5"
+            android:alpha="0.8"
             android:text="@string/btn_login"
-            android:textColor="#fff" />
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <!-- Link to Sign Up Screen -->
 
@@ -79,7 +88,7 @@
             android:text="@string/btn_link_to_register"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="18dp" />
     </LinearLayout>
 
 </LinearLayout>
