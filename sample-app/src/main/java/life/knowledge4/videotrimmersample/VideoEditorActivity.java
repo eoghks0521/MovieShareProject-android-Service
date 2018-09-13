@@ -20,6 +20,8 @@ import life.knowledge4.videotrimmer.utils.FileUtils;
 
 public class VideoEditorActivity extends AppCompatActivity {
 
+    String id;
+
     private static final int REQUEST_VIDEO_TRIMMER = 0x01;
     private static final int REQUEST_STORAGE_READ_ACCESS_PERMISSION = 101;
     static final String EXTRA_VIDEO_PATH = "EXTRA_VIDEO_PATH";
@@ -28,6 +30,9 @@ public class VideoEditorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_videoeditor);
+
+        Intent intent = getIntent();
+        id = intent.getStringExtra("clientid");
 
         ImageButton galleryButton = (ImageButton) findViewById(R.id.galleryButton);
         if (galleryButton != null) {
@@ -58,6 +63,7 @@ public class VideoEditorActivity extends AppCompatActivity {
         startActivityForResult(videoCapture, REQUEST_VIDEO_TRIMMER);
         */
         Intent intent = new Intent(this,Brother.class);
+        intent.putExtra("clientid",id);
         startActivity(intent);
     }
 

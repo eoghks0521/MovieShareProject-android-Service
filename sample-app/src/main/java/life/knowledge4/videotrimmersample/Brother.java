@@ -2,6 +2,7 @@ package life.knowledge4.videotrimmersample;
 
 import android.annotation.TargetApi;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -60,6 +61,8 @@ public class Brother extends AppCompatActivity
 
     public final String TAG = "KJH";
     private NetworkService networkService;
+
+    String clientid;
 
     public class Version {
         String version;
@@ -481,6 +484,10 @@ public class Brother extends AppCompatActivity
 
         setContentView(R.layout.activity_brother);
 
+        Intent intent  = getIntent();
+        clientid = intent.getStringExtra("clientid");
+
+
         reset_btn = (Button)findViewById(R.id.reset_btn);
         thumb_btn = (Button)findViewById(R.id.thumb_btn);
         play_toggle_btn = (Button)findViewById(R.id.play_toggle_btn) ;
@@ -845,7 +852,7 @@ public class Brother extends AppCompatActivity
             */
 
             thumbnail_post.setBmp(return_buff);
-            thumbnail_post.setUser_id("junsik");
+            thumbnail_post.setUser_id(clientid);
 
             /*
             Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.bg);

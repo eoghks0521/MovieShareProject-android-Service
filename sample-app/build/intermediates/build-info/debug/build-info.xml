@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.1.1"
-    timestamp="1536823610999"
+    timestamp="1536826483825"
     token="4424530640361807810"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4208" />
+        duration="1973" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="100" />
+        duration="89" />
     <task
         name="verifier"
-        duration="104" />
+        duration="59" />
 
     <artifact
         location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -84,8 +84,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1536823610999"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1536826483825"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\android_worksapce\ace2-master\sample-app\build\intermediates\split-apk\debug\slices\slice_5.apk"
