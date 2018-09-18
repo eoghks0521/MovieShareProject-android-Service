@@ -48,7 +48,7 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button1.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button1.setBackgroundColor(Color.parseColor("#FFDB53F9"));
                         button1.setTextColor(Color.WHITE);
                         Intent intent3 = new Intent(getApplicationContext(),UploadActivity.class);
                         intent3.putExtra("clientid",id);
@@ -71,7 +71,7 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button2.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button2.setBackgroundColor(Color.parseColor("#FFDB53F9"));
                         button2.setTextColor(Color.WHITE);
                         Intent intent2 = new Intent(getApplicationContext(),UploadListActivity.class);
                         intent2.putExtra("clientid",id);
@@ -93,7 +93,7 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button3.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button3.setBackgroundColor(Color.parseColor("#FFDB53F9"));
                         button3.setTextColor(Color.WHITE);
                         Intent intent3 = new Intent(getApplicationContext(),FriendEditorActivity.class);
                         intent3.putExtra("clientid",id);
@@ -115,7 +115,7 @@ public class FunctionListActivity extends AppCompatActivity {
                         break;
 
                     case MotionEvent.ACTION_UP:
-                        button4.setBackgroundColor(Color.parseColor("#FF1F1F20"));
+                        button4.setBackgroundColor(Color.parseColor("#FFDB53F9"));
                         button4.setTextColor(Color.WHITE);
                         Intent intent4 = new Intent(getApplicationContext(),VideoEditorActivity.class);
                         intent4.putExtra("clientid",id);

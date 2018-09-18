@@ -404,14 +404,19 @@ public class K4LVideoTrimmer extends FrameLayout {
 
 
                 FileOutputStream out = new FileOutputStream(sdPath+"/"+noExtension+".jpg");
-                bmFrame = Bitmap.createScaledBitmap(bmFrame,450,300,true);
+                bmFrame = Bitmap.createScaledBitmap(bmFrame,720,480,true);
+
+                FileOutputStream out2 = new FileOutputStream(sdPath+"/"+noExtension+"_original"+".jpg");
+
 
                 Canvas canvas = new Canvas(bitmap);
                 Paint paint = new Paint(Paint.FILTER_BITMAP_FLAG);
                 canvas.drawBitmap(bmFrame, 150, 40, paint);
 
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);
+                bmFrame.compress(Bitmap.CompressFormat.JPEG,100, out2);
                 out.close();
+                out2.close();
 
 
 

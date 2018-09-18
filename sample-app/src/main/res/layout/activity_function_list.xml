@@ -53,10 +53,11 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:alpha="0.3"
-                    android:background="@color/background_video_color"
+                    android:background="@color/white"
+                    android:fontFamily="serif"
                     android:text="등록하기"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp" />
+                    android:textSize="30sp" />
 
                 <View
                     android:id="@+id/view2"
@@ -72,10 +73,11 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:alpha="0.3"
-                    android:background="@color/background_video_color"
+                    android:background="@color/white"
+                    android:fontFamily="@font/lemon"
                     android:text="목록"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
 
             <View
@@ -99,10 +101,11 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:alpha="0.3"
-                    android:background="@color/background_video_color"
+                    android:background="@color/white"
+                    android:fontFamily="@font/lemon"
                     android:text="비디오 편집"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp" />
+                    android:textSize="30sp" />
 
                 <View
                     android:id="@+id/view4"
@@ -119,10 +122,11 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:alpha="0.3"
-                    android:background="@color/background_video_color"
+                    android:background="@color/white"
+                    android:fontFamily="@font/lemon"
                     android:text="친구추가"
                     android:textColor="@android:color/white"
-                    android:textSize="20sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
         </LinearLayout>
 
