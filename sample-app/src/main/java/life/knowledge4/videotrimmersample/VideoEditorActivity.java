@@ -54,8 +54,6 @@ public class VideoEditorActivity extends AppCompatActivity {
             });
         }
 
-        ImageView img = (ImageView)findViewById(R.id.imageView);
-        img.setImageResource(Pictures.pictures[0]);
     }
 
     private void openVideoCapture() {

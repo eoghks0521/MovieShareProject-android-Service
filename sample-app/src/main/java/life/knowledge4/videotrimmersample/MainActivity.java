@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         ApplicationController application = ApplicationController.getInstance();
-        //application.buildNetworkService("adac2e83.ngrok.io");
+       // application.buildNetworkService("a9eab5e9.ngrok.io");
         application.buildNetworkService("52.194.102.63", 8000);
         networkService = ApplicationController.getInstance().getNetworkService();
 
