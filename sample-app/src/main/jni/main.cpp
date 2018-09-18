@@ -434,9 +434,9 @@ Java_life_knowledge4_videotrimmersample_Brother_ConvertRGBtoGray( JNIEnv *env,
                                 srcTri[1] = Point2f(v_width, 0);
                                 srcTri[2] = Point2f(v_width, v_height);
 
-                                dstTri[0] = Point2f(x_p, y_p);
-                                dstTri[1] = Point2f((RightBottom_x - LeftTop_x) + x_p, (RightBottom_y - LeftTop_y) + y_p);
-                                dstTri[2] = Point2f((RightTop_x - LeftTop_x) + x_p, (RightTop_y - LeftTop_y) + y_p);
+                                dstTri[0] = Point2f(x_p - 7, y_p - 7);
+                                dstTri[1] = Point2f((RightBottom_x - LeftTop_x) + x_p + 7, (RightBottom_y - LeftTop_y) + y_p - 7);
+                                dstTri[2] = Point2f((RightTop_x - LeftTop_x) + x_p + 7, (RightTop_y - LeftTop_y) + y_p + 7);
 
                                 warp_mat = getAffineTransform(srcTri, dstTri);
 

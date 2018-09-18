@@ -907,50 +907,35 @@ public class Brother extends AppCompatActivity
                         }
 
                         else {
-                            thumbnail = new Mat(500, 500, CvType.CV_8UC4);
-                            thumbnail_post = new Thumbnail();
-                            reset = 1;
-                            ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr(), video_mat.getNativeObjAddr(), thumbnail.getNativeObjAddr(), reset, thumb);
-                            thumbnail_f = 0;
-                            thumb = 0;
-                            video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
-                            video_mat_bmp = Bitmap.createBitmap(video_size, video_size, Bitmap.Config.ARGB_8888);
-                            cnt = 0;
-                            /*
-                            for(int j=0;j<(int)(video_mat_arr.length / loading_img_arr.length);j++) {
-                                for (int i = 0; i < loading_img_arr.length; i++) {
-                                    Utils.bitmapToMat(loading_img_arr[i], video_mat);
-                                    video_mat_arr[(5*j) + i] = video_mat;
-                                    if (i != loading_img_arr.length - 1) {
-                                        video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
-                                    }
+                            for(int rs=0;rs<2;rs++) {
+                                //Toast.makeText(MainActivity.this, "Hey I'm a toast messsage",Toast.LENGTH_LONG).show();
+                                reset = 1;
+                                ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr(), video_mat.getNativeObjAddr(), thumbnail.getNativeObjAddr(), reset, thumb);
+                                thumbnail_f = 0;
+                                thumb = 0;
+                                thumbnail = new Mat(500, 500, CvType.CV_8UC4);
+                                video_mat = new Mat(video_size, video_size, CvType.CV_8UC4);
+                                video_mat_bmp = Bitmap.createBitmap(video_size, video_size, Bitmap.Config.ARGB_8888);
+                                cnt = 0;
+                                get_frame_thread = new Thread[45];
+                                check = 0;
+                                sb.setProgress(0);
+                                int k = 0;
+                                for (int i = 0; i <= 90 * 10; i = i + 90) {
+                                    video_thread_arr[k++] = new MyRunnable(i);
                                 }
+                                for (int i = 0; i < 900; i++) {
+                                    frame_check[i] = 0;
+                                }
+                                video_mat_arr = new Mat[450];
+                                video_mat_arr2 = new Mat[450];
+                                start_20 = 0;
+                                sb_check = true;
+                                sb_cnt = 0;
+                                progress_text.setText("0:00");
+                                sec_text.setText("wait");
+                                executor = Executors.newSingleThreadExecutor();
                             }
-                            */
-
-                            get_frame_thread = new Thread[45];
-                            check = 0;
-                            sb.setProgress(0);
-                            int k=0;
-                            for(int i=0;i<=90*10;i=i+90){
-                                video_thread_arr[k++] = new MyRunnable(i);
-                            }
-                            for(int i=0;i<900;i++){
-                                frame_check[i] = 0;
-                            }
-                            video_mat_arr = new Mat[450];
-                            video_mat_arr2 = new Mat[450];
-                            start_20 = 0;
-                            sb_check = true;
-                            sb_cnt = 0;
-                            progress_text.setText("0:00");
-                            sec_text.setText("wait");
-                            /*
-                            for(int i=0;i<45;i++){
-                                thread_is_finish[i] = 0;
-                            }
-                            */
-                            executor = Executors.newSingleThreadExecutor();
                             Toast.makeText(Brother.this, "해당 썸네일이 없습니다.", Toast.LENGTH_LONG).show();
                         }
 

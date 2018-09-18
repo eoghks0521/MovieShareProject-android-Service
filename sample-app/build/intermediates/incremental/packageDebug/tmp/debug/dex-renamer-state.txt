@@ -1,4 +1,4 @@
-#Tue Sep 18 15:12:54 KST 2018
+#Tue Sep 18 16:13:45 KST 2018
 base.0=E\:\\android_worksapce\\ace2-master\\sample-app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 path.1=classes.dex
 renamed.1=classes2.dex
