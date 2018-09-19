@@ -27,7 +27,7 @@ public class FunctionListActivity extends AppCompatActivity {
         String idd = intent.getStringExtra("clientid");
         id = idd;
         textView = (TextView)findViewById(R.id.textView2);
-        textView.setText(id+"님 환영합니다요");
+        textView.setText(id+"님 반갑습니다.");
         button1 = (Button)findViewById(R.id.btn1);
         button2 = (Button)findViewById(R.id.btn2);
         button3 = (Button)findViewById(R.id.btn3);
